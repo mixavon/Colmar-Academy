@@ -8,15 +8,16 @@ html {
 .colmaracademy {
     color: rgb(175, 174, 174);
     display: inline-flex;
-    justify-content: center; 
+    flex-direction: row;
     align-content: center;
     align-items: center; 
+    flex-wrap:wrap;
     height: 64px;
     margin-top: 10px;
+    width: 100%;
 }
 
 .colmaracademy img {
-    display: inline-flex; 
     margin-left: 24px; 
     width: 4rem;
 }
@@ -26,6 +27,15 @@ html {
 }
 
 .colmaracademy h1 {
-    display: inline-flex;
     line-height: 32px;
 }
+
+ .colmaracademy .nav {
+    color: black;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-left: auto;
+    margin-right: 24px;
+ }
+
