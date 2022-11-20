@@ -1,6 +1,7 @@
 html {
     background-color: white;
     font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;  
 }
 
 
@@ -28,6 +29,8 @@ html {
 
 .colmaracademy h1 {
     line-height: 32px;
+    font-family: 'Josefin Sans', sans-serif; 
+    font-weight: 900; 
 }
 
  .colmaracademy .nav {
@@ -37,35 +40,31 @@ html {
     gap: 16px;
     margin-left: auto;
     margin-right: 24px;
+    font-family: 'Josefin Sans', sans-serif;  
  }
 
-
-.banner {
-    background-color: rgb(221, 221, 221);
-    width: 100%;
-    display: flex; 
-    align-items: center;
+.container {
+    width:100%;
+    background-color: rgb(209, 209, 209);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
-.banner img{
-    display: inline-flex;
+
+.container img{ 
+    margin: 32px 24px;
     width: 60%;
-    margin-top: 32px;
-    margin-left: 24px;
-    margin-bottom: 32px;
-    margin-right: 24px;
-}
-
-.banner h2 {
     display: flex;
     flex-wrap: wrap;
-    font-size: 2.5rem;
-    font-weight: bolder; 
-    text-align: left;
 }
 
-.banner h3{
-    display: flex;
+.container h2 {
     flex-wrap: wrap;
+    max-width:100%;
+    
+}
 
+.container h3 {
+    
 }
