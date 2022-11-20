@@ -43,7 +43,7 @@ html {
     font-family: 'Josefin Sans', sans-serif;  
  }
 
-.container {
+.banner-container {
     width:100%;
     background-color: rgb(209, 209, 209);
     display: flex;
@@ -52,19 +52,27 @@ html {
 }
 
 
-.container img{ 
+.banner-container img{ 
     margin: 32px 24px;
     width: 60%;
     display: flex;
     flex-wrap: wrap;
 }
 
-.container h2 {
-    flex-wrap: wrap;
-    max-width:100%;
-    
+.banner-words {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
 }
 
-.container h3 {
-    
+.banner-words h2 {
+    flex-wrap: wrap;
+    max-width:100%;
+}
+
+.banner-words h3 {
+    flex-wrap: wrap;
+    max-width:100%;
 }
