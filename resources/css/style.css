@@ -12,10 +12,13 @@ html {
     flex-direction: row;
     align-content: center;
     align-items: center; 
-    flex-wrap:wrap;
     height: 64px;
-    margin-top: 10px;
     width: 100%;
+    position: fixed;
+    background-color: white;
+    margin-top: 0;
+    top: 0; 
+    padding-top: 10px;
 }
 
 .colmaracademy img {
@@ -36,13 +39,11 @@ html {
  .colmaracademy .nav {
     color: black;
     display: inline-flex;
-    flex-wrap: wrap;
     gap: 16px;
     margin-left: auto;
     margin-right: 24px;
     font-family: 'Josefin Sans', sans-serif;  
  }
-
 
 
  /*This is the banner*/
@@ -52,14 +53,16 @@ html {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    padding-top: 64px; 
 }
 
 
-.banner-container img{ 
+.banner-img { 
     margin: 32px 24px;
     width: 60%;
     display: flex;
     flex-wrap: wrap;
+    max-width: 100%;
 }
 
 .banner-words {
@@ -148,6 +151,11 @@ html {
     margin-top: 16px;
 }
 
+.portions-one:hover {
+    background-color: rgb(209, 209, 209);
+    color: black; 
+}
+
 .portions-one img {
     width: 35%;
     height: auto;
@@ -176,4 +184,16 @@ html {
     margin-top: 0; 
     color: rgb(55, 160, 226); 
     font-weight: 400; 
+}
+
+
+/*This is section two*/
+.section-two {
+    background-color: rgb(240, 240, 240);
+}
+
+.section-two h1 {
+    text-align: center;
+    padding: 32px 0px;
+    font-size: 4rem;
 }
