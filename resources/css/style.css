@@ -150,6 +150,7 @@ html {
     display: flex;
     flex-direction: row;  
     margin-top: 16px;
+    border: 1px solid rgb(209, 209, 209);
 }
 
 .portions-one:hover {
@@ -239,4 +240,39 @@ html {
 
 .words-in-box span {
     padding: 8px 0px; 
+}
+
+
+/*This is section three*/
+.section-three {
+    padding: 32px 24px; 
+    max-width: 100%; 
+}
+.section-three-title h1 {
+    text-align: center;
+    padding: 64px 0px 32px 0px; 
+    font-size: 4rem; 
+}
+
+.section-three-video {
+    width: 60%;
+}
+
+.section-three-video video {
+    max-width: 100%; 
+}
+
+.words-under-video {
+
+}
+
+.words-under-video h2 {
+    font-size: 2rem; 
+    color: rgb(72, 72, 72); 
+}
+
+.words-under-video h3 {
+    font-size: 1.5rem;
+    font-weight: lighter; 
+    color: gray;    
 }
