@@ -19,6 +19,7 @@ html {
     margin-top: 0;
     top: 0; 
     padding-top: 10px;
+    box-shadow: 0 7px 6px -6px #222;
 }
 
 .colmaracademy img {
@@ -194,6 +195,48 @@ html {
 
 .section-two h1 {
     text-align: center;
-    padding: 32px 0px;
+    padding-top: 64px;  
     font-size: 4rem;
+}
+
+.section-two-boxes {
+    padding: 32px 72px;  
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 32px; 
+}
+
+
+.float-boxes {
+    display: flex;
+    flex-wrap: wrap;;
+    flex-direction: column; 
+    background-color: white; 
+    width:fit-content; 
+}
+
+.float-boxes img{
+    height: auto;
+}
+
+.words-in-box {
+    padding: 16px;  
+}
+
+.words-in-box h2 {
+    font-size: 2.3rem; 
+    color: rgb(72, 72, 72); 
+}
+
+.words-in-box h3 {
+    font-size: 1.5rem;
+    font-weight: lighter; 
+    width: 400px; 
+    color: gray;    
+}
+
+.words-in-box span {
+    padding: 8px 0px; 
 }
