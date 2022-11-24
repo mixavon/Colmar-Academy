@@ -247,6 +247,7 @@ html {
 .section-three {
     padding: 32px 24px; 
     max-width: 100%; 
+    display: flex;
 }
 .section-three-title h1 {
     text-align: center;
@@ -256,6 +257,10 @@ html {
 
 .section-three-video {
     width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    padding-right: 36px;
 }
 
 .section-three-video video {
@@ -275,4 +280,53 @@ html {
     font-size: 1.5rem;
     font-weight: lighter; 
     color: gray;    
+}
+
+.boxes-three {
+    display: flex;  
+    flex-wrap: wrap;
+    flex-direction: row; 
+    width: 100%; 
+}
+
+.boxes-three img {
+    padding: 16px; 
+    height: auto;
+    width: 35%; 
+}
+
+.boxes-three-words {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%; 
+}
+
+.boxes-three-words h2 {
+    font-size: 2.5rem;  
+    color: rgb(72, 72, 72); 
+}
+
+.boxes-three-words h3 {
+    font-size: 1.75rem;
+    font-weight: lighter; 
+    color: gray;   
+}
+
+.right-three-container {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    padding: 16px 24px;   
+    display: flex;
+    justify-content: space-between; 
+}
+
+footer div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
 }
